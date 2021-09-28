@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <Title/>
-
-    <Hero message="Testo aggiunto tramite componente Hero."/>
-    <img src="https://blog.logrocket.com/wp-content/uploads/2020/02/Top-ten-component-libraries.png" alt="">
+    <Hero message="Testo ed immagine aggiunti tramite componente Hero."/>
   </div>
 </template>
 

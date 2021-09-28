@@ -1,5 +1,8 @@
 <template>
-    <h3>{{ message }}</h3>
+    <div>
+        <h3>{{ message }}</h3>
+        <img src="../assets/logo.png" alt="Hero img">
+    </div>
 </template>
 
 <script>
