@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Title/>
+
+    <Hero message="Testo aggiunto tramite componente Hero."/>
+    <img src="https://blog.logrocket.com/wp-content/uploads/2020/02/Top-ten-component-libraries.png" alt="">
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Title from './components/Title.vue'
+import Hero from './components/Hero.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Title,
+    Hero
   }
 }
 </script>
